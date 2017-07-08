@@ -38,10 +38,9 @@ console.log("Print all odd numbers between 300 and 333")
 // 	num3++;
 // }
 for(var k=300; k < 334; k++){
-	if(k % 2 === 0){
-	} else{
+	if(k % 2 != 0){
 		console.log(k);
-	}
+	} 
 }
 
 //print all numbers divisible by 5 and 3 between 5 and 50
