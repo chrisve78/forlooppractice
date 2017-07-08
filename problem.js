@@ -6,7 +6,7 @@ console.log("Print all numbers between -10 and 19")
 // 	console.log(num1);
 // 	num1++;
 // }
-for(i = -10; i < 20; i++){
+for(var i = -10; i < 20; i++){
 	console.log(i);
 }
 
@@ -20,7 +20,7 @@ console.log("Print all even numbers between 10 and 40")
 // 	}
 // 	num2++;
 // }
-for(j = 10; j < 41; j+=2){
+for(var j = 10; j < 41; j+=2){
 	console.log(j);
 }
 
@@ -35,7 +35,7 @@ console.log("Print all odd numbers between 300 and 333")
 // 	}
 // 	num3++;
 // }
-for(k=300; k < 334; k++){
+for(var k=300; k < 334; k++){
 	if(k % 2 === 0){
 	} else{
 		console.log(k);
@@ -53,7 +53,7 @@ console.log("Print all numbers divisible by 5 and 3 between 5 and 50")
 // 	num4++;
 // }
 
-for(z = 5; z < 51; z++){
+for(var z = 5; z < 51; z++){
 	if(z % 3 === 0 && z % 5 === 0){
 		console.log(z);
 	}
