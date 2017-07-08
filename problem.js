@@ -20,8 +20,10 @@ console.log("Print all even numbers between 10 and 40")
 // 	}
 // 	num2++;
 // }
-for(var j = 10; j < 41; j+=2){
-	console.log(j);
+for(var j = 10; j < 41; j++){
+	if(j % 2 === 0){
+		console.log(j);
+	}
 }
 
 //print all odd numbers between 300 and 333
